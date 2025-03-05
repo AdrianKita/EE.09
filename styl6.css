@@ -1,0 +1,51 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+/* div#baner{
+    display: flex;
+} */
+ div.clear{
+    clear:both;
+ }
+div#lewy,div#srodkowy{
+    background-color: #3CB371;
+    color: white;
+    height:100px;
+    width: 40%;
+    float:left;
+    display: flex;
+
+}
+div#prawy{
+    background-color:#3CB371;
+    height:100px;
+    width: 20%;
+    float:left;
+    display: flex;
+
+}
+main{
+    display:flex;
+    flex-wrap: wrap;
+}
+div.dzien{
+    background-color: #FFDAB9;
+    width: 170px;
+    height:90px;
+    margin: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #3CB371;
+
+}
+footer{
+    background-color: #3CB371;
+    color:white;
+}
+h6{
+    text-align: right;
+}
+form{
+    padding: 30px;
+}
